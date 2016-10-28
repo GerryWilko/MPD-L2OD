@@ -1,0 +1,19 @@
+{
+  "name": "viewer",
+  "version": "1.0.0",
+  "description": "Creates viewer for all MPEG Dash Streams in sub-directories and sets up for playback.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@openlab.ncl.ac.uk:17150/Kitchen/MPEG-Viewer.git"
+  },
+  "author": "Gerard Wilkinson",
+  "license": "UNLICENCED",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "xml2js": "^0.4.17"
+  }
+}
